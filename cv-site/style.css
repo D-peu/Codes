@@ -28,11 +28,17 @@ h2 {
 
 figure{
     width: 80%;
-    
+    margin-left: 0;
+    margin-right: -21rem;
 }
 
 img {
     width: 20rem;
     margin-top: -4rem;
     
+}
+
+#cursos {
+    display: inline-block;
+    flex-direction: column;
 }
