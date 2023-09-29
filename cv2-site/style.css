@@ -1,7 +1,18 @@
 * {box-sizing: border-box;}
 
-h1 {
+:root {
+    --cor-amarelo: #FFCF49;
+    --cor-preto: #0E0C0D;
+    --cor-branca: #FFFFFF;
+}
 
+body {
+    background-color: var(--cor-preto);
+}
+
+h1 {
+    color: var(--cor-amarelo);
+    text-align: center;
 }
 
 img {
@@ -10,4 +21,61 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+article {
+    background-color: var(--cor-amarelo);
+    border: solid 1px;
+    width: calc(33,3);
+    height: 20rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+meter::-webkit-meter-bar {
+    background-color: var(--cor-preto);
+}
+
+meter::-webkit-meter-optimum-value {
+    background-color: #FFE396;
+  }
+
+#contato p {
+    color: var(--cor-branca);
+}
+
+h3 {
+    color: var(--cor-branca);
+}
+
+
+@media screen and (max-width: 600px) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between
+    }
+
+    #skills, #cursos {
+        width: calc(50%);   
+    }
+
+    #experiencia {
+        width: 100%;
+        margin-bottom: 0;
+    }
 }
