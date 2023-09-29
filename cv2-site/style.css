@@ -35,7 +35,7 @@ article {
     background-color: var(--cor-amarelo);
     border: solid 1px;
     width: calc(33,3);
-    height: 20rem;
+    height: 25rem;
 }
 
 h2 {
@@ -54,12 +54,24 @@ meter::-webkit-meter-optimum-value {
     background-color: #FFE396;
   }
 
+.institucao {
+    text-decoration: ;
+}
+
 #contato p {
     color: var(--cor-branca);
 }
 
+#contato {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
 h3 {
     color: var(--cor-branca);
+    text-align: center;
 }
 
 
