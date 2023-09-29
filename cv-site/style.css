@@ -7,11 +7,10 @@
 }
 
 body {
-    width: 80%;
 }
 
 .fundo {
-    background-color: var(--cor-amarelo);
+    width: 80%;
 }
 
 .fundo-preto {
