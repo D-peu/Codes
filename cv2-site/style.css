@@ -34,8 +34,8 @@ img {
 article {
     background-color: var(--cor-amarelo);
     border: solid 1px;
-    width: calc(33,3);
     height: 25rem;
+    width: 33%;
 }
 
 h2 {
